@@ -1,0 +1,56 @@
+article {
+	text-align: center;
+}
+#monitor {
+	/*-webkit-transform: scaleX(-1);*/
+	height: 100%;
+	width: 100%;
+	/*-webkit-box-reflect: below 20px -webkit-linear-gradient(top, transparent, transparent 80%, rgba(255,255,255,0.2));*/
+}
+#live {
+	/*position: absolute;
+	z-index: 1;
+	/*color: white;
+	right: 35px;
+	top: 20px;
+	height:inherit;
+	width:inherit;*/
+	background: rgb(0, 0, 0) transparent;
+}
+.container {
+	padding: 10px 25px 5px 25px;
+	/*background: black;*/
+	border-radius: 4px;
+	display: inline-block;
+	position: relative;
+}
+.blur {
+	-webkit-filter: blur(3px);
+}
+.brightness {
+	-webkit-filter: brightness(5);
+}
+.contrast {
+	-webkit-filter: contrast(8);
+}
+.hue-rotate {
+	-webkit-filter: hue-rotate(90deg);
+}
+.hue-rotate2 {
+	-webkit-filter: hue-rotate(180deg);
+}
+.hue-rotate3 {
+	-webkit-filter: hue-rotate(270deg);
+}
+.saturate {
+	-webkit-filter: saturate(10);
+}
+.grayscale {
+	-webkit-filter: grayscale(1);
+}
+.sepia {
+	-webkit-filter: sepia(1);
+}
+.invert {
+	-webkit-filter: invert(1)
+}

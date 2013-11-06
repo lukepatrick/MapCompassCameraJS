@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<style>
+			html, body {
+				overflow: hidden;
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				display: -webkit-flex;
+				-webkit-align-items: center;
+				-webkit-justify-content: center;
+				box-sizing: border-box;
+			}
+
+		</style>
+		<link rel="stylesheet" href="camera.css">
+		<link rel="stylesheet" href="map.css">
+		<link rel="stylesheet" href="http://js.arcgis.com/3.6/js/esri/css/esri.css" />
+
+		<title>AugReal</title>
+
+		<script type="text/javascript" src="camera.js"></script>
+		<script src="http://js.arcgis.com/3.6compact"></script>
+		<script type="text/javascript" src="compass.js"></script>
+	</head>
+
+	<body bgcolor="000">
+
+		<div>
+
+			<section id="app" hidden>
+				<div class="container">
+					<span id="live"><div id="map"></div> </span>
+
+					<video id="monitor" autoplay></video>
+				</div>
+			</section>
+		</div>
+
+	</body>
+</html>
